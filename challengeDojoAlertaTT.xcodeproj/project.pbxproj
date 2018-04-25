@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A303EF02090A90500FC515A /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A303EEF2090A90500FC515A /* AlertBuilder.swift */; };
+		7AD8DBDE2090C8D3002F2EC1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8DBDD2090C8D3002F2EC1 /* FourthViewController.swift */; };
+		7AD8DBE12090CA19002F2EC1 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8DBE02090CA19002F2EC1 /* FourthView.swift */; };
+		7AD8DBE32090CC3E002F2EC1 /* cristiano.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8DBE22090CC3E002F2EC1 /* cristiano.gif */; };
+		7AD8DBE52090CD43002F2EC1 /* michael.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8DBE42090CD43002F2EC1 /* michael.gif */; };
 		7AE99B7E208FEEE200F76B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99B7D208FEEE200F76B05 /* AppDelegate.swift */; };
-		7AE99B80208FEEE200F76B05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99B7F208FEEE200F76B05 /* ViewController.swift */; };
+		7AE99B80208FEEE200F76B05 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99B7F208FEEE200F76B05 /* MainViewController.swift */; };
 		7AE99B83208FEEE200F76B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE99B81208FEEE200F76B05 /* Main.storyboard */; };
 		7AE99B85208FEEE200F76B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE99B84208FEEE200F76B05 /* Assets.xcassets */; };
 		7AE99B88208FEEE200F76B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE99B86208FEEE200F76B05 /* LaunchScreen.storyboard */; };
+		7AE99B98208FF62A00F76B05 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99B97208FF62A00F76B05 /* MainView.swift */; };
+		7AE99B9B208FF98300F76B05 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99B9A208FF98300F76B05 /* GeoLocation.swift */; };
+		7AE99B9F209009BB00F76B05 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99B9E209009BB00F76B05 /* SecondViewController.swift */; };
+		7AE99BA420900D4500F76B05 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99BA320900D4500F76B05 /* ThirdViewController.swift */; };
+		7AE99BAE209019A800F76B05 /* ThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE99BAD209019A800F76B05 /* ThreeView.swift */; };
+		D7B2D1F82ED802CBA5FFDEAC /* Pods_challengeDojoAlertaTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF257BEBE12745A4B62B58ED /* Pods_challengeDojoAlertaTT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52F97D5809ACAA19039CFFAA /* Pods-challengeDojoAlertaTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeDojoAlertaTT.release.xcconfig"; path = "Pods/Target Support Files/Pods-challengeDojoAlertaTT/Pods-challengeDojoAlertaTT.release.xcconfig"; sourceTree = "<group>"; };
+		7A303EEF2090A90500FC515A /* AlertBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		7AD8DBDD2090C8D3002F2EC1 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		7AD8DBE02090CA19002F2EC1 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		7AD8DBE22090CC3E002F2EC1 /* cristiano.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cristiano.gif; sourceTree = "<group>"; };
+		7AD8DBE42090CD43002F2EC1 /* michael.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = michael.gif; sourceTree = "<group>"; };
 		7AE99B7A208FEEE200F76B05 /* challengeDojoAlertaTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challengeDojoAlertaTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE99B7D208FEEE200F76B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AE99B7F208FEEE200F76B05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AE99B7F208FEEE200F76B05 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7AE99B82208FEEE200F76B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AE99B84208FEEE200F76B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE99B87208FEEE200F76B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7AE99B89208FEEE200F76B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE99B89208FEEE200F76B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/jackson/Documents/projects/dojos-CIT/challengeDojoAlertaTT/challengeDojoAlertaTT/util/Info.plist"; sourceTree = "<absolute>"; };
+		7AE99B97208FF62A00F76B05 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7AE99B9A208FF98300F76B05 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		7AE99B9E209009BB00F76B05 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7AE99BA320900D4500F76B05 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		7AE99BAD209019A800F76B05 /* ThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeView.swift; sourceTree = "<group>"; };
+		AF257BEBE12745A4B62B58ED /* Pods_challengeDojoAlertaTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_challengeDojoAlertaTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7AFFE5A4408B403C0A3290 /* Pods-challengeDojoAlertaTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeDojoAlertaTT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-challengeDojoAlertaTT/Pods-challengeDojoAlertaTT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B2D1F82ED802CBA5FFDEAC /* Pods_challengeDojoAlertaTT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AD8DBDC2090C8B6002F2EC1 /* PhaseFour */ = {
+			isa = PBXGroup;
+			children = (
+				7AD8DBDD2090C8D3002F2EC1 /* FourthViewController.swift */,
+			);
+			name = PhaseFour;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7AD8DBDF2090C9FA002F2EC1 /* PhaseFour */ = {
+			isa = PBXGroup;
+			children = (
+				7AD8DBE02090CA19002F2EC1 /* FourthView.swift */,
+			);
+			path = PhaseFour;
+			sourceTree = "<group>";
+		};
+		7AD8DBE62090CF4A002F2EC1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99B97208FF62A00F76B05 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		7AE99B71208FEEE200F76B05 = {
 			isa = PBXGroup;
 			children = (
 				7AE99B7C208FEEE200F76B05 /* challengeDojoAlertaTT */,
 				7AE99B7B208FEEE200F76B05 /* Products */,
+				C5A007CBFCC3BDDC3AE409D2 /* Pods */,
+				C4AFBE49C7A274346E4121DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,121 @@
 		7AE99B7C208FEEE200F76B05 /* challengeDojoAlertaTT */ = {
 			isa = PBXGroup;
 			children = (
-				7AE99B7D208FEEE200F76B05 /* AppDelegate.swift */,
-				7AE99B7F208FEEE200F76B05 /* ViewController.swift */,
-				7AE99B81208FEEE200F76B05 /* Main.storyboard */,
-				7AE99B84208FEEE200F76B05 /* Assets.xcassets */,
-				7AE99B86208FEEE200F76B05 /* LaunchScreen.storyboard */,
-				7AE99B89208FEEE200F76B05 /* Info.plist */,
+				7AE99B96208FF5CD00F76B05 /* util */,
+				7AE99B95208FF5AD00F76B05 /* StoryBoard */,
+				7AE99B94208FF59F00F76B05 /* Source */,
 			);
 			path = challengeDojoAlertaTT;
+			sourceTree = "<group>";
+		};
+		7AE99B8F208FF56200F76B05 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AD8DBDC2090C8B6002F2EC1 /* PhaseFour */,
+				7AE99BA020900B3500F76B05 /* PhaseThree */,
+				7AE99B9C2090097D00F76B05 /* Main */,
+				7AE99B9D2090098900F76B05 /* PhaseTwo */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AE99B90208FF57600F76B05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AD8DBE62090CF4A002F2EC1 /* Main */,
+				7AD8DBDF2090C9FA002F2EC1 /* PhaseFour */,
+				7AE99BAC2090198F00F76B05 /* PhaseThree */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AE99B94208FF59F00F76B05 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99B99208FF94200F76B05 /* Infrastructure */,
+				7AE99B90208FF57600F76B05 /* View */,
+				7AE99B8F208FF56200F76B05 /* Controller */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7AE99B95208FF5AD00F76B05 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99B86208FEEE200F76B05 /* LaunchScreen.storyboard */,
+				7AE99B81208FEEE200F76B05 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		7AE99B96208FF5CD00F76B05 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				7AD8DBE42090CD43002F2EC1 /* michael.gif */,
+				7AD8DBE22090CC3E002F2EC1 /* cristiano.gif */,
+				7AE99B89208FEEE200F76B05 /* Info.plist */,
+				7AE99B7D208FEEE200F76B05 /* AppDelegate.swift */,
+				7AE99B84208FEEE200F76B05 /* Assets.xcassets */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		7AE99B99208FF94200F76B05 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99B9A208FF98300F76B05 /* GeoLocation.swift */,
+				7A303EEF2090A90500FC515A /* AlertBuilder.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		7AE99B9C2090097D00F76B05 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99B7F208FEEE200F76B05 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7AE99B9D2090098900F76B05 /* PhaseTwo */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99B9E209009BB00F76B05 /* SecondViewController.swift */,
+			);
+			path = PhaseTwo;
+			sourceTree = "<group>";
+		};
+		7AE99BA020900B3500F76B05 /* PhaseThree */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99BA320900D4500F76B05 /* ThirdViewController.swift */,
+			);
+			path = PhaseThree;
+			sourceTree = "<group>";
+		};
+		7AE99BAC2090198F00F76B05 /* PhaseThree */ = {
+			isa = PBXGroup;
+			children = (
+				7AE99BAD209019A800F76B05 /* ThreeView.swift */,
+			);
+			path = PhaseThree;
+			sourceTree = "<group>";
+		};
+		C4AFBE49C7A274346E4121DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF257BEBE12745A4B62B58ED /* Pods_challengeDojoAlertaTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A007CBFCC3BDDC3AE409D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AFFE5A4408B403C0A3290 /* Pods-challengeDojoAlertaTT.debug.xcconfig */,
+				52F97D5809ACAA19039CFFAA /* Pods-challengeDojoAlertaTT.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AE99B8C208FEEE200F76B05 /* Build configuration list for PBXNativeTarget "challengeDojoAlertaTT" */;
 			buildPhases = (
+				CD350232491EBE42A3F3659A /* [CP] Check Pods Manifest.lock */,
 				7AE99B76208FEEE200F76B05 /* Sources */,
 				7AE99B77208FEEE200F76B05 /* Frameworks */,
 				7AE99B78208FEEE200F76B05 /* Resources */,
+				D4978F5F0EFA4F4D733724A0 /* [CP] Embed Pods Frameworks */,
+				53099FB1BEC27DF5BD40AA0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE99B88208FEEE200F76B05 /* LaunchScreen.storyboard in Resources */,
+				7AD8DBE32090CC3E002F2EC1 /* cristiano.gif in Resources */,
+				7AD8DBE52090CD43002F2EC1 /* michael.gif in Resources */,
 				7AE99B85208FEEE200F76B05 /* Assets.xcassets in Resources */,
 				7AE99B83208FEEE200F76B05 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +295,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53099FB1BEC27DF5BD40AA0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-challengeDojoAlertaTT/Pods-challengeDojoAlertaTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD350232491EBE42A3F3659A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4978F5F0EFA4F4D733724A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-challengeDojoAlertaTT/Pods-challengeDojoAlertaTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AE99B76208FEEE200F76B05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE99B80208FEEE200F76B05 /* ViewController.swift in Sources */,
+				7AE99B9B208FF98300F76B05 /* GeoLocation.swift in Sources */,
+				7AE99B80208FEEE200F76B05 /* MainViewController.swift in Sources */,
+				7AE99BAE209019A800F76B05 /* ThreeView.swift in Sources */,
+				7AD8DBDE2090C8D3002F2EC1 /* FourthViewController.swift in Sources */,
+				7AD8DBE12090CA19002F2EC1 /* FourthView.swift in Sources */,
+				7AE99B98208FF62A00F76B05 /* MainView.swift in Sources */,
+				7A303EF02090A90500FC515A /* AlertBuilder.swift in Sources */,
+				7AE99B9F209009BB00F76B05 /* SecondViewController.swift in Sources */,
+				7AE99BA420900D4500F76B05 /* ThirdViewController.swift in Sources */,
 				7AE99B7E208FEEE200F76B05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +492,11 @@
 		};
 		7AE99B8D208FEEE200F76B05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7AFFE5A4408B403C0A3290 /* Pods-challengeDojoAlertaTT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = challengeDojoAlertaTT/Info.plist;
+				INFOPLIST_FILE = challengeDojoAlertaTT/util/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jackson-smith.challengeDojoAlertaTT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +507,11 @@
 		};
 		7AE99B8E208FEEE200F76B05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F97D5809ACAA19039CFFAA /* Pods-challengeDojoAlertaTT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = challengeDojoAlertaTT/Info.plist;
+				INFOPLIST_FILE = challengeDojoAlertaTT/util/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jackson-smith.challengeDojoAlertaTT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
