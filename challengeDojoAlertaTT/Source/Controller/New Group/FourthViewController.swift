@@ -12,12 +12,8 @@ import SwiftGifOrigin
 
 class FourthViewController : UIViewController {
     
-    @IBOutlet weak var cristianoGif: UIImageView!
-    
     override func viewDidLoad() {
-        
         let fourthView = view as? FourthView
-        
         fourthView?.cristianoGif.image = UIImage.gif(name: "cristiano")
         fourthView?.michaelGif.image = UIImage.gif(name: "michael")
     }

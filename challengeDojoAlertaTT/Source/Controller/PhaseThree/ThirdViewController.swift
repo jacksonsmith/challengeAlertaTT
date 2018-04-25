@@ -47,8 +47,7 @@ class ThirdViewController: UIViewController {
 
     // 🐙 complete a função, calcule a distância entre a localização utilizando as duas variáveis
     fileprivate func calculateAndSetDistance(first: CLLocation, second: CLLocation) {
-        let distance = first.distance(from: second)
-        totalDistance = distance
+        totalDistance = nil
     }
     
     // MARK: - Support Functions

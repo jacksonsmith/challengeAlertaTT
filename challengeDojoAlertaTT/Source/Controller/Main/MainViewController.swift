@@ -44,7 +44,6 @@ extension MainViewController: CLLocationManagerDelegate {
         locationManager.delegate = self
         
         // 🦕 Request Permision here
-        locationManager.requestWhenInUseAuthorization()
     }
     
 }

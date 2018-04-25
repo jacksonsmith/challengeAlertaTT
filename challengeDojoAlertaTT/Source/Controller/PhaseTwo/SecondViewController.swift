@@ -76,7 +76,6 @@ extension SecondViewController : CLLocationManagerDelegate {
         locationManager.delegate = self
         
         // 🦖 Start job to get locations
-        locationManager.startUpdatingLocation()
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
